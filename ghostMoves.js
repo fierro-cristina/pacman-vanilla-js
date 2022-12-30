@@ -1,4 +1,4 @@
-import { DIRECTIONS, OBJECT_TYPE } from "../Setups/setup";
+import { DIRECTIONS, OBJECT_TYPE } from "./setup";
 
 export function randomMovement(position, direction, objectExists) {
   let dir = direction;

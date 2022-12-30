@@ -1,4 +1,4 @@
-import { DIRECTIONS, OBJECT_TYPE } from "../Setups/setup";
+import { DIRECTIONS, OBJECT_TYPE } from "./setup";
 
 class Ghost {
   constructor(speed = 5, startPos, movement, name) {

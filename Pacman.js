@@ -1,4 +1,4 @@
-import { OBJECT_TYPE, DIRECTIONS } from "../Setups/setup";
+import { OBJECT_TYPE, DIRECTIONS } from "./setup";
 
 class Pacman {
   constructor(speed, startPos) {

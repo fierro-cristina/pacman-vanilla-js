@@ -1,8 +1,8 @@
-import { LEVEL, OBJECT_TYPE } from "./app/Setups/setup";
-import GameBoard from "./app/Classes/GameBoard";
-import Pacman from "./app/Classes/Pacman";
-import Ghost from "./app/Classes/Ghost";
-import { randomMovement } from "./app/Methods/ghostMoves";
+import { LEVEL, OBJECT_TYPE } from "./setup";
+import GameBoard from "./GameBoard";
+import Pacman from "./Pacman";
+import Ghost from "./Ghost";
+import { randomMovement } from "/ghostMoves";
 import soundDot from "./sounds/munch.wav";
 import soundPill from "./sounds/pill.wav";
 import soundGameStart from "./sounds/game_start.wav";
