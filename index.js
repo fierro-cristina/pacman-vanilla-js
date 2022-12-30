@@ -2,7 +2,7 @@ import { LEVEL, OBJECT_TYPE } from "./setup";
 import GameBoard from "./GameBoard";
 import Pacman from "./Pacman";
 import Ghost from "./Ghost";
-import { randomMovement } from "/ghostMoves";
+import { randomMovement } from "./ghostMoves";
 import soundDot from "./sounds/munch.wav";
 import soundPill from "./sounds/pill.wav";
 import soundGameStart from "./sounds/game_start.wav";
@@ -59,8 +59,6 @@ function checkCollision(pacman, ghosts) {
     }
   }
 }
-
-//Object exists should take an array like remove object
 
 function gameLoop(pacman, ghosts) {
   gameBoard.moveCharacter(pacman);
