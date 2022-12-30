@@ -11,5 +11,6 @@ To set up this project locally follow the steps listed below:
 
 
 ***Things to keep in consideration***
+
 If your game freezes during execution, just close the tab you are running it on and re-enter ```localhost:1234```
 
